@@ -11,7 +11,7 @@ import torch
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from lib.logit_lens import init_model, get_hidden_logprobs
-from compute_percentages import load_wiki
+from global_language_trends import load_wiki
 
 
 def parse_zhen_dict(file):
