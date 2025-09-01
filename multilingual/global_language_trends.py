@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from multilingual.download_lm_corpus import LANGUAGES  # pylint: disable=wrong-import-position
+from multilingual.compute_tokenizer_language_probabilities import LANGUAGES  # pylint: disable=wrong-import-position
 from lib.logit_lens import init_model, get_hidden_logprobs
 
 
